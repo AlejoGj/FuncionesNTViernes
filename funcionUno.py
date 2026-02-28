@@ -1,6 +1,6 @@
 def crear_lista_estudiantes(cantidadEstudiantes):
     estudiantes=[]
-    for i in range(cantidadEstudiantes):
+    for _ in range(cantidadEstudiantes):
         estudiante={}
         estudiante["id"]=input("id: ")
         estudiante["nombres"]=input("nombres: ")
@@ -13,6 +13,3 @@ def crear_lista_estudiantes(cantidadEstudiantes):
         estudiantes.append(estudiante)
     return estudiantes
 
-#Invocando la funcion
-resultado=crear_lista_estudiantes(2000)
-print(resultado)
